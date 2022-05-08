@@ -1,0 +1,65 @@
+.email-settings {
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        background-color: $transparent-color;
+        border: 1px solid $form-border-color;
+    }
+    select {
+        background: url($select-edit-background-url) no-repeat right;
+        background-size: 25px 11px;
+        border-color: $bright-grey;
+    }
+    .btn-hide {
+        display: none;
+    }
+    #smtpButtonGroup {
+        button.btn-danger {
+            border: 1px solid #0557bb;
+            background: transparent;
+            color: #0557bb;
+
+            &:hover {
+                background-color: #e3effd;
+                color: #0557bb;
+                border: 1px solid #0557bb;
+            }
+        }
+    }
+    .action-btn-top {
+        position: absolute;
+        right: 0;
+        bottom: 18px;
+    }
+    .required-text {
+        position: absolute;
+        right: 0;
+    }
+    .panel-heading a:before {
+        display: none;
+    }
+    .panel-heading a div {
+        line-height: 48px;
+    }
+    #EditView_tabs .edit [type="button"] {
+        background: $nepal-grey;
+        border: none;
+    }
+    #EditView_tabs .edit [type="checkbox"] {
+        margin-top: 1px;
+        margin-bottom: 0;
+    }
+    #EditView {
+        .edit {
+            tr td {
+                vertical-align: middle;
+                padding: 20px 8px;
+            }
+        }
+    }
+}
+
+#smtpButtonGroup {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
